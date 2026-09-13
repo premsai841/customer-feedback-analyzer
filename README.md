@@ -1,17 +1,19 @@
 # Customer Feedback Analyzer
 
-> A lightweight feedback-processing workflow for categorizing customer comments, detecting sentiment, and surfacing recurring themes.
+> A lightweight Customer Experience portfolio project for organizing customer comments, identifying recurring themes, and turning qualitative feedback into structured insight.
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+## Career context
 
-## Purpose
+This project supports my Customer Success direction. It reflects the importance of listening to customers, identifying recurring service or product friction, and translating feedback into improvement opportunities.
 
-Customer feedback is valuable only when recurring patterns can be turned into action. This project demonstrates a simple, explainable approach to organizing qualitative feedback into sentiment groups and operational themes.
+## Business problem
+
+Customer feedback is useful only when recurring patterns can be identified and communicated clearly. This project demonstrates a simple, explainable workflow for grouping feedback by sentiment and operational theme.
 
 ## Workflow
 
 ```text
-Feedback CSV
+Customer feedback
     ↓
 Text normalization
     ↓
@@ -19,12 +21,14 @@ Keyword-based sentiment classification
     ↓
 Theme detection
     ↓
-Summary of recurring customer issues
+Recurring issue summary
+    ↓
+Customer-experience insight
 ```
 
 ## Themes
 
-The demo identifies common themes such as:
+The demo identifies themes such as:
 
 - Product usability
 - Performance
@@ -42,17 +46,21 @@ customer-feedback-analyzer/
 └── README.md
 ```
 
-## Run
+## Run locally
 
 ```bash
 pip install -r requirements.txt
 python src/analyze_feedback.py
 ```
 
-## Scope
+## Technical learning
 
-The classifier is intentionally transparent and uses synthetic feedback. It is a portfolio demonstration, not a production sentiment model.
+The implementation uses basic Python and Pandas concepts as learning tools. The main focus is the Customer Experience workflow: organizing feedback, finding patterns, and producing a useful summary.
+
+## Important limitation
+
+The classifier is intentionally transparent and uses synthetic feedback. It is a portfolio demonstration, not a production-grade sentiment-analysis system.
 
 ## Author
 
-**Prem Sai Bachchala** — Customer Success / Customer Experience analytics portfolio project.
+**Prem Sai Bachchala** — Customer Success / Customer Experience / Support portfolio.
